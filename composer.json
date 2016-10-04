@@ -1,0 +1,23 @@
+{
+    "name": "culinaire/framework",
+    "description": "The Culinaire Framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank McCoy",
+            "email": "frankmccoy.d@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bistro\\": "src/Bistro/"
+        }
+    },
+    "replace": {
+        "bistro/products": "self.version",
+        "bistro/recipes": "self.version",
+        "bistro/vendors": "self.version"
+    },
+    "minimum-stability": "dev",
+    "require": {},
+}

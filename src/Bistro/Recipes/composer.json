@@ -1,0 +1,19 @@
+{
+    "name": "bistro/recipes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank McCoy",
+            "email": "frankmccoy.d@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bistro\\Recipes\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
